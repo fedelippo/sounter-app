@@ -17,7 +17,7 @@ class Counter extends React.Component {
         return (
           <div>
             <span className={classes}>{this.formatCount()}</span>
-            <button onClick={() => this.handleIncrement(3)} className="btn btn-sm btn-outline-primary">
+            <button onClick={() => this.handleIncrement("Hello!")} className="btn btn-sm btn-outline-primary">
               Increment
             </button>
             <ul>
